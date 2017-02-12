@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="width: 100%; height: 100%; background-color: aliceblue">
+	<div>
+		Task Board
+	</div>
+	<div id="board">
+		<div id = "new" class = "box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div>
+				<div class="label" style="display: inline;">
+					open
+				</div>
+			</div>
+			<div id = "task1" class="inner-box" draggable="true" ondragstart="drag(event)">
+				open
+			</div>
+			<div id = "task2" class="inner-box" draggable="true" ondragstart="drag(event)">
+				OPEN TASK 2
+			</div>
+		</div>
+
+		<div class = "box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="label" >
+				Inprogress
+			</div>
+		</div>
+
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="label" >
+				DONE
+			</div>	
+		</div>
+		<div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="label" >
+				ToDo
+			</div>	
+		</div>
+
+	</div>	
+	<div class = "footer">
+	  <p>Created by: Rohit sakhi</p>
+	  <p>Linkedin: <a href="https://www.linkedin.com/in/rohit-sakhi-b19a3a47/">Rsakhi</a>.</p>
+	</div>
+
+	<script src="scripts.js">
+	</script>
+</body>
+</html>

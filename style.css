@@ -1,0 +1,45 @@
+.box{
+	width: 23%;
+	min-height: 200px;
+	height: 100%; 
+	border:1px solid gainsboro; 
+	float: left; 
+	display: inline;
+	margin: 3px;
+    background-color: gainsboro
+}
+
+.inner-box{
+	height: 20%;
+	border:1px solid #000;
+	list-style: none;
+    border: 1px solid #CCC;
+    background: #F6F6F6;
+    color: #1C94C4;
+    margin: 5px;
+    padding: 5px;
+}
+
+.label{
+    overflow: hidden;
+	font-size: 20pt;
+    font-weight: 500;
+    font-family: fantasy;
+}
+
+dialog {  
+    width: 500px;  
+    background:#e8e8e8;
+    border: 1px solid #dadada;
+    font-family:sans-serif;
+    padding: 5px 10px 20px 20px;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
