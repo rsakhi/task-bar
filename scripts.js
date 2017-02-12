@@ -21,3 +21,11 @@ function addNewTask() {
   ele.innerHTML="New Task"
   document.getElementById('new').appendChild(ele);
 }
+
+function openDialogBox(){
+	var dialog = document.getElementById('window')
+  dialog.showModal(); 
+  document.getElementById('exit').onclick = function() {  
+    dialog.close();  
+};  
+		}
